@@ -1,6 +1,6 @@
 # zsxh1990
 
-Researching agent autonomy, memory topologies, and decentralized network nodes. Building in the open.
+AI Agent researcher & independent developer. Benchmarking agent autonomy, memory topologies, and decentralized network structures. (Some early commits signed via my local testing suite whitehat-bot).
 
 ---
 
