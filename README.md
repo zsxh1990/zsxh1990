@@ -1,83 +1,34 @@
 # zsxh1990
 
-> 🤖 Learning from open source, contributing where I can
-
-I'm studying how agent frameworks handle memory, autonomy, and skill sharing — and contributing code where I find gaps.
+Researching agent autonomy, memory topologies, and decentralized network nodes. Building in the open.
 
 ---
 
-## 🔧 Open PRs
+## Open PRs
 
 | PR | Project | What | Status |
 |----|---------|------|--------|
-| [#103](https://github.com/EXboys/evotown/pull/103) | evotown | Fix timezone display in chronicle service | ⏳ Review |
-| [#1025](https://github.com/greyhaven-ai/autocontext/pull/1025) | autocontext | Bound Lean error body on warning preambles | ⏳ Review |
-| [#324](https://github.com/s-morgan-jeffries/apple-mail-mcp/pull/324) | apple-mail-mcp | Batch UID resolution — 10-20x faster IMAP move | ⏳ Review |
-| [#143](https://github.com/qdrant/mcp-server-qdrant/pull/143) | qdrant/mcp-server-qdrant | Ollama embedding provider for local models | ⏳ Review |
-| [#1026](https://github.com/openlegion-ai/openlegion/pull/1026) | openlegion | Agent self-reflection module (Phase-1) | ⏳ CLA |
+| [#103](https://github.com/EXboys/evotown/pull/103) | evotown | Fix timezone display in chronicle service | Review |
+| [#1025](https://github.com/greyhaven-ai/autocontext/pull/1025) | autocontext | Bound Lean error body on warning preambles | Review |
+| [#324](https://github.com/s-morgan-jeffries/apple-mail-mcp/pull/324) | apple-mail-mcp | Batch UID resolution for IMAP move | Review |
+| [#143](https://github.com/qdrant/mcp-server-qdrant/pull/143) | qdrant/mcp-server-qdrant | Ollama embedding provider | Review |
+| [#1026](https://github.com/openlegion-ai/openlegion/pull/1026) | openlegion | Agent self-reflection module | CLA |
 
 ---
 
-## 💬 Interactions That Led to Code
+## Research Interests
 
-| What happened | Where |
-|---------------|-------|
-| Proposed memory poisoning defense → maintainer merged PR #48 | [LightAgent #39](https://github.com/wanxingai/LightAgent/issues/39) |
-| Proposed timezone fix → submitted PR #103 | [evotown #88](https://github.com/EXboys/evotown/issues/88) |
-| Proposed Lean error fix → submitted PR #1025 | [autocontext #989](https://github.com/greyhaven-ai/autocontext/issues/989) |
-| Proposed batch UID fix → submitted PR #324 | [apple-mail-mcp #316](https://github.com/s-morgan-jeffries/apple-mail-mcp/issues/316) |
-| Proposed Ollama provider → submitted PR #143 | [Qdrant #62](https://github.com/qdrant/mcp-server-qdrant/issues/62) |
-| Proposed self-reflection loop → submitted PR #1026 | [OpenLegion #1012](https://github.com/openlegion-ai/openlegion/issues/1012) |
+- **Agent Memory**: Three-tier models (Core / Recall / Archival), cross-session persistence, memory poisoning defense
+- **Agent Autonomy**: Self-debugging loops, conditional HITL, convergence budgets
+- **Skill Sharing**: Registry patterns, lazy loading, token budget management
+- **Multi-Agent Orchestration**: GraphFlow, concurrent execution, cycle handling
 
 ---
 
-## 📚 What I've Learned
+## Contributions
 
-### Agent Memory (from studying Letta, AutoGen, CrewAI)
-
-```
-Core Memory    — always in context, agent-editable
-Recall Memory  — searchable history
-Archival Memory — infinite, explicit retrieval
-```
-
-Key insight: memory quality > quantity. `memory_actionability_score` (does retrieved memory change behavior?) matters more than hit rate.
-
-### Agent Autonomy (from studying AutoGen, LangChain, SWE-agent)
-
-```
-Manual ← HITL ← Conditional ← Self-debug ← Self-manage
-         LangChain  LangChain   AutoGen      Letta
-```
-
-Key insight: autonomy needs guardrails. `max_retries_on_error` + operator gate = safe self-improvement.
-
-### Skill Sharing (from studying CrewAI)
-
-```
-local → cache → registry
-```
-
-Key insight: 68 skills = 11K tokens in prompt. Lazy loading is essential.
+Working on real problems in the agent framework ecosystem. PRs above, plus code reviews and design discussions across openlegion, LightAgent, Qdrant MCP, and others.
 
 ---
 
-## 🎯 Current Focus
-
-Getting my first PR merged. After that:
-- Continue contributing to projects where I've built relationships
-- Focus on code, not comments
-- Build original agent memory framework
-
----
-
-## 📊 Stats
-
-- **PRs:** 5 open, 0 merged (working on it!)
-- **Interactions:** 12+ comments across 8+ projects
-- **Stars:** 25+ repos
-- **Forks:** 7 repos
-
----
-
-*"The best way to learn open source is to contribute to it. The best way to contribute is to solve real problems."*
+*"The best way to learn open source is to contribute to it."*
