@@ -8,46 +8,53 @@
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│  Total PRs: 100    Merged: 81    Repos: 16          │
-│  External Merge Rate: 39%   Green Wall: 10 repos 🟩  │
+│  Total PRs: 118    Merged: 101    Repos: 16         │
+│  External Merge Rate: 39%   Green Wall: 16 repos 🟩 │
 └─────────────────────────────────────────────────────┘
 ```
 
 | Metric | Count |
 |--------|-------|
-| 🔀 PRs opened | 100 |
-| ✅ Merged | 81 |
+| 🔀 PRs opened | 118 |
+| ✅ Merged | 101 |
 | 🟩 Repos with merged PR | 16 |
-| 🏗️ Active open PRs | 6 |
+| 🏗️ Active open PRs | 17 |
 
-### Highlights
+### Green Wall 🟩
 
 | Project | PRs Merged | Focus |
 |---------|-----------|-------|
-| [MisakaNet](https://github.com/Ikalus1988/MisakaNet) | 61 | Knowledge graph, lessons, search, CI, MCP server |
-| [mcp-gateway-registry](https://github.com/agentic-community/mcp-gateway-registry) | 4 | Security, URI constraints |
-| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 2 | MCP server listings |
+| [MisakaNet](https://github.com/Ikalus1988/MisakaNet) | 74 | Knowledge graph, lessons, search, CI, Docker, MCP server |
+| [pr-genius](https://github.com/zsxh1990/pr-genius) | 5 | PR quality sidecar, coach, maintainer view |
+| [mcp-gateway-registry](https://github.com/agentic-community/mcp-gateway-registry) | 4 | Security, URI constraints, redirects |
+| [robot-utilization](https://github.com/Ikalus1988/robot-utilization) | 3 | Health check, E2E tests, naming fix |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 2 | MisakaNet + pr-genius listings |
 | [LLMServingSim](https://github.com/casys-kaist/LLMServingSim) | 2 | Documentation |
-| [maigret](https://github.com/soxoj/maigret) | 1 | Chinese site markers |
 | [jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) | 1 | Configurable timeout |
 | [mcphub](https://github.com/samanhappy/mcphub) | 1 | RCE security fix |
+| [maigret](https://github.com/soxoj/maigret) | 1 | Chinese site markers |
+| [mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server) | 1 | — |
 | [ORG2](https://github.com/org2AI/ORG2) | 1 | Linux download links |
-| + 8 more | 8 | Various |
+| [CC-Vision](https://github.com/odebo/CC-Vision) | 1 | Provider presets |
+| [AgentClaimGuard](https://github.com/konoeph/AgentClaimGuard) | 1 | LangChain adapter |
+| [evotown](https://github.com/EXboys/evotown) | 1 | Timezone fix |
+| [chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | 1 | Community listing |
+| [MisakaNet (zsxh1990)](https://github.com/zsxh1990/MisakaNet) | 1 | FANUC lessons |
 
 ### Recent Merged PRs
 
 | PR | Project | Merged |
 |----|---------|--------|
-| [ci: upgrade pr-genius action to v1.3.1](https://github.com/Ikalus1988/MisakaNet/pull/773) | MisakaNet | 2026-08-03 |
-| [feat: add Russian and Hindi lesson translations](https://github.com/Ikalus1988/MisakaNet/pull/729) | MisakaNet | 2026-08-02 |
-| [fix: disable PulmonaryHypertensionNews](https://github.com/soxoj/maigret/pull/2917) | maigret | 2026-08-02 |
-| [ci: add PR Genius GitHub Action](https://github.com/Ikalus1988/MisakaNet/pull/722) | MisakaNet | 2026-08-01 |
-| [Add pr-genius to Knowledge & Memory](https://github.com/punkpeye/awesome-mcp-servers/pull/11128) | awesome-mcp-servers | 2026-07-29 |
-| [docs(rfc): 90-day roadmap evaluation](https://github.com/Ikalus1988/MisakaNet/pull/642) | MisakaNet | 2026-07-29 |
-| [feat(lessons): fact-checked community lessons](https://github.com/Ikalus1988/MisakaNet/pull/631) | MisakaNet | 2026-07-29 |
-| [fix: configurable execution timeout](https://github.com/datalayer/jupyter-mcp-server/pull/266) | jupyter-mcp-server | 2026-07-13 |
-| [fix: RCE security in tool execution](https://github.com/samanhappy/mcphub/pull/987) | mcphub | 2026-07-13 |
-| [feat: cross-agent experience sharing](https://github.com/e2b-dev/awesome-ai-agents/pull/1242) | awesome-ai-agents | 2026-07-14 |
+| [feat: auto-infer evidence_level](https://github.com/Ikalus1988/MisakaNet/pull/967) | MisakaNet | 2026-08-15 |
+| [feat(dx): add setup-dev.sh](https://github.com/Ikalus1988/MisakaNet/pull/1008) | MisakaNet | 2026-08-15 |
+| [feat(fatal-guard): Docker support](https://github.com/Ikalus1988/MisakaNet/pull/1020) | MisakaNet | 2026-08-15 |
+| [feat: evidence level badge](https://github.com/Ikalus1988/MisakaNet/pull/1007) | MisakaNet | 2026-08-13 |
+| [feat(ci): PyPI release workflow](https://github.com/Ikalus1988/MisakaNet/pull/1015) | MisakaNet | 2026-08-13 |
+| [docs: Japanese README](https://github.com/Ikalus1988/MisakaNet/pull/997) | MisakaNet | 2026-08-13 |
+| [Add MisakaNet to awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers/pull/10393) | awesome-mcp-servers | 2026-08-11 |
+| [feat(voice): global disable switch](https://github.com/Ikalus1988/MisakaNet/pull/936) | MisakaNet | 2026-08-10 |
+| [feat(voice): MCP voice hooks](https://github.com/Ikalus1988/MisakaNet/pull/928) | MisakaNet | 2026-08-10 |
+| [feat: server health check](https://github.com/Ikalus1988/robot-utilization/pull/7) | robot-utilization | 2026-08-10 |
 
 ---
 
@@ -63,7 +70,7 @@ Pre-submission analysis coach for open source contributors. 110 tests, 15 CLI co
 - 63 repo profiles, 51 case studies, 220+ lessons
 
 ### [MisakaNet](https://github.com/Ikalus1988/MisakaNet) — Agent Knowledge Network
-Decentralized knowledge graph for AI agents. Contributed search, CI, MCP server, and 60+ lessons.
+Decentralized knowledge graph for AI agents. Contributed search, CI, Docker, MCP server, and 74 merged PRs.
 
 ---
 
@@ -76,4 +83,4 @@ Decentralized knowledge graph for AI agents. Contributed search, CI, MCP server,
 
 ---
 
-*Stats auto-generated from GitHub GraphQL API. Last updated: 2026-08-04*
+*Last updated: 2026-08-15*
