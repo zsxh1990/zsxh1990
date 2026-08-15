@@ -1,54 +1,50 @@
-# zsxh1990
+<div align="center">
 
-> Open source contributor focused on **AI Agent infrastructure** — memory systems, MCP servers, and developer tooling.
+### Hi, I'm **Eric Jia** 👋
 
----
+**AI Agent Builder · Open Source Contributor · Full-Stack Developer**
 
-## 📊 Stats
+[![GitHub](https://img.shields.io/badge/zsxh1990-black?style=flat&logo=github)](https://github.com/zsxh1990)
+[![LinkedIn](https://img.shields.io/badge/ericjia-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ericjia)
 
-```
-┌──────────────────────────────────────────────────────┐
-│  Total PRs: 118    Merged: 101    Green Wall: 9 🟩   │
-└──────────────────────────────────────────────────────┘
-```
+</div>
 
 ---
 
-## 🟩 Green Wall — Merged into Major Repos
+## 🟩 Green Wall — Major Repos
 
 | | Repo | Stars | PRs | Focus |
 |---|------|-------|-----|-------|
-| 🟩 | [**awesome-mcp-servers**](https://github.com/punkpeye/awesome-mcp-servers) | ![Stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=social) | 2 | MisakaNet + pr-genius listings |
-| 🟩 | [**LibreChat**](https://github.com/danny-avila/LibreChat) | ![Stars](https://img.shields.io/github/stars/danny-avila/LibreChat?style=social) | 1 🔄 | Unreachable code cleanup |
-| 🟩 | [**chroma**](https://github.com/chroma-core/chroma) | ![Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social) | 1 🔄 | Idiomatic Jest assertions |
-| 🟩 | [**maigret**](https://github.com/soxoj/maigret) | ![Stars](https://img.shields.io/github/stars/soxoj/maigret?style=social) | 1 | Chinese site presence markers |
-| 🟩 | [**woodpecker**](https://github.com/woodpecker-ci/woodpecker) | ![Stars](https://img.shields.io/github/stars/woodpecker-ci/woodpecker?style=social) | 1 ⏳ | Cancelled workflow filtering |
-| 🟩 | [**ORG2**](https://github.com/org2AI/ORG2) | ![Stars](https://img.shields.io/github/stars/org2AI/ORG2?style=social) | 1 | Linux download links |
-| 🟩 | [**mcphub**](https://github.com/samanhappy/mcphub) | ![Stars](https://img.shields.io/github/stars/samanhappy/mcphub?style=social) | 1 | RCE security fix |
-| 🟩 | [**jupyter-mcp-server**](https://github.com/datalayer/jupyter-mcp-server) | ![Stars](https://img.shields.io/github/stars/datalayer/jupyter-mcp-server?style=social) | 1 | Configurable execution timeout |
-| 🟩 | [**mongodb-mcp-server**](https://github.com/mongodb-js/mongodb-mcp-server) | ![Stars](https://img.shields.io/github/stars/mongodb-js/mongodb-mcp-server?style=social) | 1 | — |
+| 🟩 | [**awesome-mcp-servers**](https://github.com/punkpeye/awesome-mcp-servers) | ![Stars](https://img.shields.io/github/stars/punkpeye/awesome-mcp-servers?style=social) | [PR #11128](https://github.com/punkpeye/awesome-mcp-servers/pull/11128), [PR #10393](https://github.com/punkpeye/awesome-mcp-servers/pull/10393) | MCP ecosystem listings |
+| 🟩 | [**maigret**](https://github.com/soxoj/maigret) | ![Stars](https://img.shields.io/github/stars/soxoj/maigret?style=social) | [PR #2917](https://github.com/soxoj/maigret/pull/2917) | OSINT false-positive fix |
+| 🟩 | [**ORG2**](https://github.com/org2AI/ORG2) | ![Stars](https://img.shields.io/github/stars/org2AI/ORG2?style=social) | [PR #350](https://github.com/org2AI/ORG2/pull/350) | Chinese docs enhancement |
+| 🟩 | [**mcphub**](https://github.com/samanhappy/mcphub) | ![Stars](https://img.shields.io/github/stars/samanhappy/mcphub?style=social) | [PR #987](https://github.com/samanhappy/mcphub/pull/987) | Security: proxy RCE fix |
+| 🟩 | [**jupyter-mcp-server**](https://github.com/datalayer/jupyter-mcp-server) | ![Stars](https://img.shields.io/github/stars/datalayer/jupyter-mcp-server?style=social) | [PR #266](https://github.com/datalayer/jupyter-mcp-server/pull/266) | Configurable timeout |
+| 🟩 | [**mongodb-mcp-server**](https://github.com/mongodb-js/mongodb-mcp-server) | ![Stars](https://img.shields.io/github/stars/mongodb-js/mongodb-mcp-server?style=social) | [PR #1309](https://github.com/mongodb-js/mongodb-mcp-server/pull/1309) | Docs: Azure cleanup |
+| 🟦 | [**LibreChat**](https://github.com/danny-avila/LibreChat) | ![Stars](https://img.shields.io/github/stars/danny-avila/LibreChat?style=social) | [PR #14794](https://github.com/danny-avila/LibreChat/pull/14794) | Unreachable code fix |
+| 🟦 | [**chroma**](https://github.com/chroma-core/chroma) | ![Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social) | [PR #7580](https://github.com/chroma-core/chroma/pull/7580) | Jest assertions refactor |
+| 🟦 | [**woodpecker**](https://github.com/woodpecker-ci/woodpecker) | ![Stars](https://img.shields.io/github/stars/woodpecker-ci/woodpecker?style=social) | [PR #6998](https://github.com/woodpecker-ci/woodpecker/pull/6998) | Runtime error filtering |
 
-> 🔄 = PR open, CI green &nbsp;|&nbsp; ⏳ = awaiting maintainer approval
+> 🟩 = merged · 🟦 = open · Stats via [GitHub](https://github.com/zsxh1990?tab=repositories&type=source&sort=stargazers)
 
 ---
 
-## 🚀 Projects
+## 🔧 Projects
 
 ### [MisakaNet](https://github.com/Ikalus1988/MisakaNet)
-Decentralized knowledge graph for AI agents. **74 merged PRs** — search, CI, Docker, MCP server, lessons.
+> AI-powered self-improvement system with agent architecture, knowledge graphs, and memory
+> 
+> 10+ merged PRs — core contributor
 
-### [pr-genius](https://github.com/zsxh1990/pr-genius)
-PR quality sidecar for open source contributors. Coach, analyze, harvest. **5 merged PRs.**
-
----
-
-## 🔬 Research Interests
-
-- **Agent Memory** — three-tier models, cross-session persistence, memory poisoning defense
-- **MCP Ecosystem** — server patterns, security, stateless protocol
-- **Developer Tooling** — PR quality automation, knowledge extraction pipelines
-- **Open Source Strategy** — contribution patterns, maintainer relations, community building
+### [PR Genius](https://github.com/zsxh1990/pr-genius)
+> Pre-submission PR advisor — AI-powered review for open-source contributions
+> 
+> MCP server, 346+ anti-patterns, 61+ repos tracked
 
 ---
 
-*Last updated: 2026-08-15*
+<div align="center">
+
+*Contributing to open source, one PR at a time.* 🚀
+
+</div>
